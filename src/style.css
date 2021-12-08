@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f4f2fe;
+  --link-color: #0a59ca;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 100px;
+}
+.name {
+  font-size: 18vmin;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.links {
+  text-align: center;
+}
+#home-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.email,
+.about {
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.email {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px 0px;
+}
+.about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.email:hover,
+.about:hover,
+.primary-link:hover {
+  color: var(--link-color);
+}
+#contact {
+  text-align: center;
+}
+#contact h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+#homepage,
+#homepage :visited {
+  color: var(--primary-color);
+}
+#mail {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+#mail:hover {
+  text-decoration: underline;
+  color: var(--link-color);
+}
+.primary-link {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  border-radius: 4px;
+}
+img {
+  display: flex;
+  vertical-align: center;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.about-par {
+  margin: 10px;
+}
+.paragraphs {
+  margin: 30px 0;
+}
